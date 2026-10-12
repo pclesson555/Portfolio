@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Webサイトの更新・保守、コーディング補助の仕事に向けたポートフォリオ。自社サイトの制作、ECサイト移行支援、既存サイトの更新経験をご紹介します。">
+  <meta name="theme-color" content="#f5f4ef">
+  <title>Portfolio | Web制作・更新・保守</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へ移動</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Portfolio トップへ">Portfolio<span class="brand-dot" aria-hidden="true"></span></a>
+    <nav aria-label="メインナビゲーション">
+      <a href="#about">プロフィール</a>
+      <a href="#work">実績</a>
+      <a href="#skills">スキル</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero container" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">WEB PRODUCTION &amp; MAINTENANCE</p>
+        <h1 id="hero-title">伝わるサイトを、<br>丁寧に整える。</h1>
+        <p class="hero-lead">Webサイトの更新・保守から、コーディング補助まで。<br class="desktop-break">エンジニア経験と、パソコン家庭教師としての経験を活かして。</p>
+        <a class="button" href="#work">制作・支援実績を見る <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-grid"></div>
+        <div class="art-window">
+          <div class="window-bar"><i></i><i></i><i></i><span>portfolio / index.html</span></div>
+          <div class="window-content"><div class="art-label">A little care,<br>a better website.</div><div class="art-line"></div><div class="art-line short"></div><div class="art-blocks"><span></span><span></span><span></span></div></div>
+        </div>
+        <div class="art-note">&lt;/&gt; <span>整える、支える、つなぐ。</span></div>
+      </div>
+      <div class="hero-bottom"><span>HTML / CSS / SITE SUPPORT</span><a href="#about">SCROLL DOWN <span aria-hidden="true">↓</span></a></div>
+    </section>
+
+    <section class="section container about" id="about" aria-labelledby="about-title">
+      <div class="section-heading"><p class="eyebrow">01 / ABOUT</p><h2 id="about-title">プロフィール</h2></div>
+      <div class="about-copy"><p class="large-text">技術の経験と、<br>人に伝える経験を、Webの仕事へ。</p><p>元ソフトウェアエンジニア。現在は、10年以上の経験を持つパソコン家庭教師として活動しています。</p><p>自社Webサイトの制作・リニューアルに加え、ECサイトの移行支援や既存Webサイトの更新・保守を担当してきました。これまでの経験を活かし、Webサイトの更新・保守、コーディング補助の仕事に取り組みたいと考えています。</p></div>
+    </section>
+
+    <section class="section work-section" id="work" aria-labelledby="work-title">
+      <div class="container">
+        <div class="work-heading"><div class="section-heading"><p class="eyebrow">02 / SELECTED WORK</p><h2 id="work-title">制作・支援実績</h2></div><p>これまでに担当した、<br>制作と運用の取り組み。</p></div>
+        <article class="work-card featured" aria-labelledby="work-one">
+          <div class="work-description"><span class="work-number">01</span><p class="category">自社サイト / 制作・リニューアル</p><h3 id="work-one">自社Webサイトを、<br>新しいかたちへ。</h3><p>HTML・CSSで制作した自社Webサイトを、ChatGPT Workを活用してリニューアルしました。</p><ul class="tags" aria-label="使用スキル"><li>HTML</li><li>CSS</li><li>ChatGPT Work</li></ul></div>
+          <!-- 自社サイトの画像を追加する場合：下記の placeholder を img に置き換えます。
+               例：<img src="images/before.webp" alt="リニューアル前の自社Webサイト" width="1200" height="800" loading="lazy">
+               Afterも同様に images/after.webp を指定してください。顧客サイトの画像は掲載しません。 -->
+          <div class="comparison" aria-label="自社サイトのリニューアル比較">
+            <figure><div class="image-placeholder"><span aria-hidden="true">▧</span><p>リニューアル前の画像</p><small>準備中</small></div><figcaption><span>BEFORE</span>リニューアル前</figcaption></figure>
+            <figure><div class="image-placeholder after"><span aria-hidden="true">▧</span><p>リニューアル後の画像</p><small>準備中</small></div><figcaption><span>AFTER</span>リニューアル後</figcaption></figure>
+          </div>
+        </article>
+        <div class="work-grid">
+          <article class="work-card" aria-labelledby="work-two"><span class="work-number">02</span><p class="category">ECサイト / 移行支援</p><h3 id="work-two">BASEからShopifyへの<br>移行をサポート。</h3><p>BASEからShopifyへの移行支援を担当。ShopifyのDawnテーマの調整などに取り組みました。</p><ul class="tags" aria-label="使用スキル"><li>Shopify</li><li>Dawn</li></ul></article>
+          <article class="work-card" aria-labelledby="work-three"><span class="work-number">03</span><p class="category">既存サイト / 更新・保守</p><h3 id="work-three">日々の更新を、<br>細部まで丁寧に。</h3><p>他者が制作したHTMLサイトのテキスト・画像の差し替え、HTML修正、ボタンや画像素材の作成を担当。WordPressブログの初期構築も行いました。</p><ul class="tags" aria-label="関連スキル"><li>HTML</li><li>WordPress</li><li>画像制作</li></ul></article>
+        </div>
+        <p class="work-note">守秘に配慮し、顧客サイトのURL・画像は掲載していません。</p>
+      </div>
+    </section>
+
+    <section class="section container skills" id="skills" aria-labelledby="skills-title">
+      <div class="section-heading"><p class="eyebrow">03 / SKILLS</p><h2 id="skills-title">スキル</h2><p>制作と更新を支える<br>ツール・技術。</p></div>
+      <dl class="skill-list"><div><dt>コーディング</dt><dd>HTML <span>/</span> CSS</dd></div><div><dt>サイト運用</dt><dd>Shopify <span>/</span> WordPress</dd></div><div><dt>デザイン・画像制作</dt><dd>Illustrator <span>/</span> Photoshop</dd></div><div><dt>制作支援</dt><dd>ChatGPT Work</dd></div></dl>
+    </section>
+    <div class="closing container"><p>ひとつひとつの更新を、<br>サイトの信頼につなげる。</p><a href="#top">ページの先頭へ <span aria-hidden="true">↑</span></a></div>
+  </main>
+  <footer class="site-footer container"><span class="brand">Portfolio<span class="brand-dot" aria-hidden="true"></span></span><small>Web制作・更新・保守</small></footer>
+</body>
+</html>
